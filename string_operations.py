@@ -1,0 +1,22 @@
+s1="akshara mythili"
+print(s1.capitalize())
+s2="akshara MYTHILI"
+print(s2.casefold())
+x=s1.center(12,"_")
+print(x)
+print(s1.count("a"))
+print(s1.endswith("i"))
+print(s2.expandtabs(tabsize=12))
+print(s1.find("i"))
+print(s1.isalnum())
+print(s2.isalpha())
+print(s1.isdecimal())
+s4="1425261"
+print(s4.isdigit())
+print(s1.isidentifier())
+print(s1.islower())
+print(s1.isupper())
+print(s1.isnumeric())
+print(s1.isprintable())
+print(s2.isspace())
+print(s1.istitle())

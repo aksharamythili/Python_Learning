@@ -1,0 +1,14 @@
+s1={1,2,3,4,5,6,6,7,6,8,9,10}
+print(s1)
+s1.add('funny')
+print(s1)
+s1.update([11,12,])
+print(s1)
+s1.remove('funny')
+print(s1)
+s2={44,55,88}
+s1.union(s2)
+print(s1)
+s3={89,88,55,56,44,77}
+s2.intersection(s3)
+print(s2)

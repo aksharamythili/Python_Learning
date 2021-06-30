@@ -1,0 +1,12 @@
+d1={'akshara':90,'funny':99,'apple':20,'banana':333}
+print(d1)
+print(d1.keys())
+print(d1.items())
+print(d1.haskey())
+d1.pop('funny')
+print(d1)
+d2={'uv':0000,'mango':300}
+d1.update(d2)
+print(d1)
+d1['akshara']=8989
+print(d1)
